@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example</title>
+    <style>
+      #myDiv {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Question No 1 Solution</h1>
+    <h1>My Document</h1>
+    <p>This is some existing text.</p>
+
+    <h1>Question No 4 Solution</h1>
+
+    <h1>My List</h1>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <h1>Question No 5 Solution</h1>
+
+    <div id="myDiv">This is my div.</div>
+
+    <script src="Assignment2.js">
+      addParagraph("This is some new text.");
+      addListItem("Item 3");
+      const myDiv = document.getElementById("myDiv");
+      changeBackgroundColor(myDiv, "red");
+    </script>
+  </body>
+</html>
